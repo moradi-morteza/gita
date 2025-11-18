@@ -1,2 +1,38 @@
 .idea
-gita.exe
+
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build cache
+/pkg/
+
+# Output of `go test`
+*.test
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go modules (optional if you commit vendor)
+vendor/
+
